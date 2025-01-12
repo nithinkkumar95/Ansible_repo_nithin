@@ -1,1 +1,6 @@
 
+---
+- name: roles
+  hosts: Java
+  roles: 
+    - install_tomcat
